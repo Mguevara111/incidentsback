@@ -1,0 +1,10 @@
+insert into empleados (name) values ('Alfonse Nobles');
+insert into empleados (name) values ('Teddy Sloegrave');
+insert into empleados (name) values ('Sean Loker');
+insert into empleados (name) values ('Amelina Barsham');
+insert into empleados (name) values ('Kellsie Mariot');
+insert into empleados (name) values ('Sandye Itzkovwich');
+insert into empleados (name) values ('Benji Bill');
+insert into empleados (name) values ('Aveline Fragino');
+insert into empleados (name) values ('Drusilla Rubega');
+insert into empleados (name) values ('Nelson Sollner');

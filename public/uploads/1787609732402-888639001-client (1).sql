@@ -1,0 +1,10 @@
+insert into client (name) values ('Jesse Tunnah');
+insert into client (name) values ('Monti Mattes');
+insert into client (name) values ('Bettina Grinston');
+insert into client (name) values ('Granger Thominga');
+insert into client (name) values ('Iosep Towndrow');
+insert into client (name) values ('Meg Nesbit');
+insert into client (name) values ('Andre Acuna');
+insert into client (name) values ('Bradan Kettles');
+insert into client (name) values ('Darlene Wyley');
+insert into client (name) values ('Newton Mallender');
