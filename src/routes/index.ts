@@ -4,7 +4,7 @@ import { uploadfile } from '../middlewares/middlewares.js'
 
 export const giRouter=express.Router()
 
-giRouter.get('/api/incidents',getincidents)
-giRouter.post('/api/incidents',uploadfile.single('incidentfile'),postincidents)
-giRouter.patch('/api/incidents/:id/status',patchstatus)
-giRouter.delete('/api/incidents/:id',deleteincidents)
+giRouter.get('/incidents',getincidents)
+giRouter.post('/incidents',uploadfile.single('incidentfile'),postincidents)
+giRouter.patch('/incidents/:id/status',patchstatus)
+giRouter.delete('/incidents/:id',deleteincidents)

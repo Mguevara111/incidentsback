@@ -20,7 +20,7 @@ app.use(cors({
 app.use(express.static(PUBLICPATH))
 app.use(express.json())
 
-app.use('/',giRouter)
+app.use('/api',giRouter)
 
 const Errorh:ErrorRequestHandler=(err,req,res,next)=>{
     let message=err.message || 'General Error'
