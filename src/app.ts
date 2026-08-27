@@ -24,13 +24,13 @@ app.use('/',giRouter)
 
 const Errorh:ErrorRequestHandler=(err,req,res,next)=>{
     let message=err.message || 'General Error'
-    let code=err.code || 500
+   const statusCode = typeof err.status === 'number' ? err.status : 500;
     let sendres:Resapi={
         success:false,
         message,
         data:null
     }
-    res.status(code).json(sendres)
+    res.status(statusCode).json(sendres)
 }
 
 app.use(Errorh)
