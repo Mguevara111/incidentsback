@@ -13,7 +13,7 @@ const __dirname=path.dirname(__filename)
 const PUBLICPATH=path.join(__dirname,'../public')
 
 app.use(cors({
-    origin:['http://localhost:5173', 'https://incidentsfront.vercel.app/'],
+    origin:['http://localhost:5173', 'https://incidentsfront.vercel.app'],
     methods:['GET','POST','PATCH','DELETE'],
     credentials:true
 }))
